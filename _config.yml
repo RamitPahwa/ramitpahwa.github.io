@@ -17,10 +17,10 @@ plugins:
 
 paginate: 20
 baseurl:
-domain_name: 'http://sourishghosh.com'
+domain_name: 'http://ramitpahwa.github.io'
 google_analytics: 'UA-82908038-1'
 disqus: true
-disqus_shortname: 'sourishghosh'
+disqus_shortname: 'ramitpahwa'
 
 #social-icons
 facebook: lordghosh
