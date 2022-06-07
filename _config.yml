@@ -1,23 +1,40 @@
-name: Your New Jekyll Site
-description: Blogging about stuffs
-meta_description: "Your New Jekyll Site, Blogging about stuffs"
+name: Sourish Ghosh
+description: Dare Mighty Things
+meta_description: "I am a Ph.D. student in the Robotics Institute, CMU associated with the Air Lab. Prior to this, I received my Bachelor’s and Master’s degree in Mathematics and Computing from IIT Kharagpur."
+meta_tags: "sourish, ghosh, iit, kharagpur, space, robotics, computer vision, cmu, carnegie mellon university"
 
 aboutPage: true
 
 markdown: kramdown
 highlighter: rouge
 
-plugins: [jekyll-paginate]
+kramdown:
+  input: GFM
+
+plugins:
+  - jekyll-sitemap
+  - jekyll-paginate
+
 paginate: 20
-domain_name: 'http://yourblog-domain.com'
-google_analytics: 'UA-XXXXXXXX-X'
-disqus: false
-disqus_shortname: 'your-disqus-shortname'
+baseurl:
+domain_name: 'http://sourishghosh.com'
+google_analytics: 'UA-82908038-1'
+disqus: true
+disqus_shortname: 'sourishghosh'
+
+#social-icons
+facebook: lordghosh
+twitter: sourish_gh
+instagram: darthsourish
+linkedin: sourishg
+github: sourishg
+email: ragnarok0211@gmail.com
+scholar: 45-8VtAAAAAJ
 
 # Details for the RSS feed generator
-url:            'http://your-blog-url.example.com'
-author:         'Your Name'
-authorTwitter:  'YourTwitterUsername'
+url:            'http://sourishghosh.com'
+author:         'Sourish Ghosh'
+authorTwitter:  'sourish_gh'
 
 permalink:       /:year/:title/
 

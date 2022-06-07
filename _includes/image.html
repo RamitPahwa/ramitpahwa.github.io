@@ -1,0 +1,16 @@
+<div class="imageblock" style="text-align: center;">
+	{% assign first_img = true %}
+	{% for image in include.images %}
+		{% if first_img == true %}
+		<div style="display:inline-block;">
+		{% else %}
+		<div style="display:inline-block;">
+		{% endif %}
+			<img src="{{ image }}" height="{{ include.height }}">
+		</div>
+		{% assign first_img = false %}
+	{% endfor %}
+</div>
+{% if include.caption != "" %}
+<div class="imgcap">{{ include.caption }}</div>
+{% endif %}

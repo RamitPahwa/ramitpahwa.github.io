@@ -4,6 +4,6 @@ permalink: about/
 profile: true
 ---
 
-This is a static page. It could be an 'about page' if you'd like.
+I am an incoming Masters in Computer Science Student at UT Austin. Prior to this, I received my Bachelor's and Master's degree in *Mathematics and Computing* from [IIT Kharagpur](http://www.iitkgp.ac.in){:target="_blank"}.
 
-{% include footer.html %}
+My [resume]({{ site.baseurl }}/resume.pdf) has more information about my experiences and skills.

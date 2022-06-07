@@ -3,6 +3,25 @@ layout: default
 archive: true
 ---
 
+<style TYPE="text/css">
+code.has-jax {font: inherit; font-size: 100%; background: inherit; border: inherit;}
+</style>
+<script type="text/x-mathjax-config">
+MathJax.Hub.Config({
+    tex2jax: {
+        inlineMath: [['$','$'], ['\\(','\\)']],
+        skipTags: ['script', 'noscript', 'style', 'textarea', 'pre'] // removed 'code' entry
+    }
+});
+MathJax.Hub.Queue(function() {
+    var all = MathJax.Hub.getAllJax(), i;
+    for(i = 0; i < all.length; i += 1) {
+        all[i].SourceElement().parentNode.className += ' has-jax';
+    }
+});
+</script>
+<script type="text/javascript" src="http://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
+
 <article class="post">
     <header>
         <h1>{{ page.title }}</h1>
@@ -13,8 +32,8 @@ archive: true
     </section>
 </article>
 <footer id="post-meta" class="clearfix">
-    <a href="http://twitter.com/{{ site.authorTwitter }}">
-        <img class="avatar" src="{{ "/" | relative_url  }}assets/images/avatar.png">
+    <a href="http://facebook.com/{{ site.facebook }}">
+        <img class="avatar" src="{{ site.baseurl }}/assets/images/avatar.png">
         <div>
             <span class="dark">{{ site.author }}</span>
             <span>{{ site.description }}</span>
@@ -25,6 +44,8 @@ archive: true
         {% include share.html %}
     </section>
 </footer>
+
+<div class="fb-like" data-href="{{ page.url }}" data-layout="standard" data-action="like" data-size="small" data-show-faces="false" data-share="true" style="margin-bottom: 25px;"></div>
 
 <!-- Disqus comments -->
 {% if site.disqus %}
@@ -40,11 +61,8 @@ archive: true
         <h3>Read more</h3>
         {% for post in site.posts %}
             <li>
-                <a href="{{ "/" | relative_url  }}{{ post.url | remove_first: '/' }}">{{ post.title }}<aside class="dates">{{ post.date | date:"%b %d" }}</aside></a>
+                <a href="{{ site.baseurl }}/{{ post.url | remove_first: '/' }}">{{ post.title }}<aside class="dates">{{ post.date | date:"%b %d" }}</aside></a>
             </li>
         {% endfor %}
     </ul>
 {% endif %}
-
-
-
