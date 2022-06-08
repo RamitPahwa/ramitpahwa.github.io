@@ -30,41 +30,30 @@ the Student CNN model can be up to 15x faster than the Teacher LSTM, while being
 
 <div class="research-item">
 	<div class="img">
-		<img src="{{ site.baseurl }}/assets/images/research/trf/minitaur.jpeg" alt="p-ACE" />
-	</div>
-	<div class="info">
-		<h1>Model</h1>
-		<span class="authors">Sourish Ghosh, Anirudha Majumdar</span>
-		<br>
-		<span class="conf">Research Internship at Princeton University, 2018</span>
-		<p class="desc">
-			Model-based control techniques for systems such as legged robots and unmanned aerial vehicles
-have the ability to explicitly reason about the nonlinearity and uncertainty in the robots' dynamics
-and potentially even provide guarantees on their safety. However, a fundamental and outstanding
-challenge is their limited ability to reason about rich sensory inputs such as depth images or vision.
-Model-based control techniques often treat the robot's perceptual system as a black box and make
-unrealistic assumptions about the perceptual system's output. The goal of this project is to address
-these challenges by leveraging data-driven approaches for learning dynamical models of <i>task-relevant</i>
-perceptual features extracted from rich sensory inputs and using these models for agile and safe robot
-navigation.
-		</p>
-	</div>
-</div>
-
-<div class="research-item">
-	<div class="img">
 		<img src="{{ site.baseurl }}/assets/images/research/pace/m2020.jpg" alt="p-ACE" />
 	</div>
 	<div class="info">
 		<h1>Data-Driven Compression of Convolutional Neural Networks</h1>
-		<span class="authors">Sourish Ghosh, Kyohei Otsu, Masahiro Ono</span>
+		<span class="authors">Ramit Pahwa, Manoj Ghuhan Arivazhagan, Ankur Garg, Siddarth Krishnamoorthy, Rohit Saxena, Sunav Choudhary</span>
 		<br>
-		<span class="conf">IROS 2018 (Madrid, Spain)</span>
+		<span class="conf">Research Internship at Adobe Research, ACM</span>
 		<p class="desc">
-			p-ACE: a probabilistic extension to ACE is a light-weight state estimation algorithm for planetary rovers with kinematically constrained articulated suspension systems. ACE's conservative safety check approach can sometimes lead to over-pessimism: feasible states are often reported as infeasible, thus resulting in frequent false positive detection. p-ACE estimates probability distributions over states instead of deterministic bounds to provide more flexible and less pessimistic worst-case evaluation with probabilistic safety guarantees.
+			Deploying trained convolutional neural networks (CNNs) to mobile devices is a challenging task because
+of the simultaneous requirements of the deployed model to be fast, lightweight and accurate. Designing
+and training a CNN architecture that does well on all three metrics is highly non-trivial and can be very
+time-consuming if done by hand. One way to solve this problem is to compress the trained CNN models
+before deploying to mobile devices. is work asks and answers three questions on compressing CNN
+models automatically: a) How to control the trade-o between speed, memory and accuracy during model
+compression? b) In practice, a deployed model may not see all classes and/or may not need to produce all
+class labels. Can this fact be used to improve the trade-o? c) How to scale the compression algorithm to
+execute within a reasonable amount of time for many deployments? e paper demonstrates that a model
+compression algorithm utilizing reinforcement learning with architecture search and knowledge distillation
+can answer these questions in the armative. Experimental results are provided for current state-of-the-art
+CNN model families for image feature extraction like VGG and ResNet with CIFAR dataset
 		</p>
 		<ul>
-			<li><a href="https://sourishghosh.com/publications/pACE_IROS18.pdf" target="blank">Paper</a></li>
+			<li><a href="https://arxiv.org/pdf/1911.12740.pdf" target="blank">Paper</a></li>
+			<li><a href="https://github.com/RamitPahwa/DDC_modelcompression" target="blank">Code</a></li>
 		</ul>
 	</div>
 </div>
@@ -74,16 +63,20 @@ navigation.
 		<img src="{{ site.baseurl }}/assets/images/research/ace/curiosity.jpg" alt="ACE" />
 	</div>
 	<div class="info">
-		<h1>Fast Approximate Clearance Evaluation for Rovers with Articulated Suspension Systems</h1>
-		<span class="authors">Kyohei Otsu, Guillaume Matheron, Sourish Ghosh, Olivier Toupet, Masahiro Ono</span>
+		<h1>LSTMs with Attention for Aggression Detection</h1>
+		<span class="authors">Nishant Nikhil, Ramit Pahwa, Mehul Kumar Nirala, Rohan Khilnani</span>
 		<br>
-		<span class="conf">Journal of Field Robotics, 2019</span>
+		<span class="conf">Proceedings of the First Workshop on Trolling, Aggression and Cyberbullying, COLING 2018</span>
 		<p class="desc">
-			ACE is a light-weight collision detection algorithm for motion planning of planetary rovers with articulated suspension systems.
-			Solving the exact collision detection problem for articulated suspension systems requires simulating the vehicle settling on the terrain, which involves an inverse-kinematics problem with iterative nonlinear optimization under geometric constraints. We propose the Approximate Clearance Evaluation (ACE) algorithm, which obtains conservative bounds on vehicle clearance, attitude, and suspension angles without iterative computation.
+			We describe the system submitted for the shared task on Aggression Identification in Facebook posts and comments.Previous works demonstrate that
+LSTMs have achieved remarkable performance in natural language processing tasks. We deploy
+an LSTM model with an attention unit over it. Our system ranks 6th and 4th in the Hindi subtask
+for Facebook comments and subtask for generalized social media data respectively. And it ranks
+17th and 10th in the corresponding English subtasks.
 		</p>
 		<ul>
-			<li><a href="https://onlinelibrary.wiley.com/doi/abs/10.1002/rob.21892" target="blank">Paper</a></li>
+			<li><a href="https://aclanthology.org/W18-4406.pdf" target="blank">Paper</a></li>
+			<li><a href="https://github.com/RamitPahwa/LSTMs-with-Attention-For-Aggression-Detection" target="blank">Code</a></li>
 		</ul>
 	</div>
 </div>
@@ -93,22 +86,10 @@ navigation.
 		<img src="{{ site.baseurl }}/assets/images/research/jpp/visualcache4rrt.png" alt="JPP" />
 	</div>
 	<div class="info">
-		<h1>Joint Perception And Planning For Efficient Obstacle Avoidance Using Stereo Vision</h1>
-		<span class="authors">Sourish Ghosh, Joydeep Biswas</span>
+		<h1></h1>
+		<span class="authors">Ramit Pahwa, Dana Cobzas</span>
 		<br>
-		<span class="conf">IROS 2017 (Vancouver, Canada)</span>
-		<p class="desc"> We introduce an approach to Joint Perception and Planning
-(JPP) using stereo vision, which performs disparity checks
-on demand, only as necessary while searching on a planning
-graph. Furthermore, obstacle checks for navigation planning
-do not require full 3D reconstruction: we present in this paper
-how obstacle queries can be decomposed into a sequence of
-confident positive stereo matches and confident negative stereo
-matches, which are significantly faster to compute than the
-exact depth of points.</p>
-		<ul>
-			<li><a href="https://www.joydeepb.com/Publications/jpp.pdf" target="blank">Paper</a></li>
-			<li><a href="https://github.com/umass-amrl/jpp" target="blank">Code</a></li>
-		</ul>
+		<span class="conf">Research Internship at University of Alberta</span>
+		<p class="desc"> We introduce an approach for end to end training regime involving localization and segmentation using Faster RCNN and U Net</p>
 	</div>
 </div>
