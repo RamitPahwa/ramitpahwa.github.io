@@ -1,7 +1,7 @@
-name: Sourish Ghosh
-description: Dare Mighty Things
-meta_description: "I am a Ph.D. student in the Robotics Institute, CMU associated with the Air Lab. Prior to this, I received my Bachelor’s and Master’s degree in Mathematics and Computing from IIT Kharagpur."
-meta_tags: "sourish, ghosh, iit, kharagpur, space, robotics, computer vision, cmu, carnegie mellon university"
+name: Ramit Pahwa
+description: Stay Hungry Stay Foolish.
+meta_description: "I am an . Prior to this, I received my Bachelor’s and Master’s degree in Mathematics and Computing from IIT Kharagpur."
+meta_tags: "ramit, pahwa, iit, kharagpur, space, robotics, computer vision, ut, austin, compression, machine learning, nlp"
 
 aboutPage: true
 
@@ -18,25 +18,25 @@ plugins:
 paginate: 20
 baseurl:
 domain_name: 'http://ramitpahwa.github.io'
-google_analytics: 'UA-82908038-1'
+google_analytics: '404'
 disqus: true
 disqus_shortname: 'ramitpahwa'
 
 #social-icons
-facebook: lordghosh
-twitter: sourish_gh
-instagram: darthsourish
-linkedin: sourishg
-github: sourishg
-email: ragnarok0211@gmail.com
-scholar: 45-8VtAAAAAJ
+facebook: ramit.pahwa.1
+twitter: PahwaRamit
+instagram: ramitpahwa
+linkedin: ramit-pahwa-248492a0
+github: RamitPahwa
+email: ramitpahwa123@gmail.com
+scholar: qP_R5HYAAAAJ
 
 # Details for the RSS feed generator
-url:            'http://sourishghosh.com'
-author:         'Sourish Ghosh'
-authorTwitter:  'sourish_gh'
+# url:            'http://sourishghosh.com'
+# author:         'Sourish Ghosh'
+# authorTwitter:  'sourish_gh'
 
-permalink:       /:year/:title/
+# permalink:       /:year/:title/
 
 defaults:
     -

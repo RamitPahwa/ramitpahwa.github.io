@@ -9,15 +9,21 @@ profile: true
 		<img src="{{ site.baseurl }}/assets/images/research/fod/fod.gif" alt="Aircraft Detection" />
 	</div>
 	<div class="info">
-		<h1>Long-range Aircraft Detection and Tracking</h1>
-		<span class="authors">Sourish Ghosh, Jay Patrikar, Brady Moon, Ojit Mehta, Sebastian Scherer</span>
+		<h1>Model Blending for text classification</h1>
+		<span class="authors">Ramit Pahwa, Surya Dwivedi, Jayanta Mukhopadhyay, Sunav Choudhary, Vishwa Vinay4</span>
 		<br>
-		<span class="conf">Current research at the Air Lab, Robotics Institute, CMU</span>
+		<span class="conf">This is my Masters Thesis done in colloboration with Adobe Research and IIT Kharagpur</span>
 		<p class="desc">
-			The detect-and-avoid problem is the “holy grail” for small aircrafts and drones that need to fly beyond line-of-sight. Delivery drones in particular need to ensure self-separation from other aircraft to ensure safety. While it may seem that aircrafts could be detected via transponders, they are often not available on many aircrafts and even if they are, the rules and regulations do not make it necessary for them to be switched on at all times. Additionally, other flying objects such as birds, balloons, and other drones don’t have transponders. Therefore it is necessary to detect and avoid these objects for fully autonomous flights. Currently, the only effective sensor for aircraft detection is radar, but it is too heavy and expensive for small drones which have size, weight, and power (SWaP) constraints. These constraints even limit LiDAR ranges to be around 100m. For high-speed obstacle avoidance in dynamic environments, objects must be detected at long ranges (>= 500m) to allow sufficient reaction time. Thus, the aim of this project is to create a vision-based aircraft detection and tracking system that focuses primarily on long-range detection.
+			State-of-the-art for many NLP tasks are dominated by deep learning models. Effectively utilizing the signal in the sequence of words via Recurrent Neural Networks (RNNs) provides impressive accuracies, especially when using LSTM-based models. These models however
+have the disadvantage of longer scoring times.
+Convolutional Neural Networks (CNNs) on the other hand are significantly faster during inference due to their parallelism. Moreover, some recent work suggests that RNN and CNN provide complementary information
+when trained on the same data for various NLP
+tasks. In this paper, we propose a method that allows the training of very competitive CNNs
+by blending in the complementary knowledge from an LSTM Teacher model. We empirically validate the method on multiple standard text classification datasets to demonstrate that
+the Student CNN model can be up to 15x faster than the Teacher LSTM, while being more accurate than training the same CNN model directly from the data.
 		</p>
 		<ul>
-			<li><a href="https://theairlab.org/aircraft-detection/" target="blank">Blog</a></li>
+			<li><a href="https://drive.google.com/file/d/1n3MJRjiypa-ft51xQVTPnN3RIukqgm4p/view" target="blank">Paper</a></li>
 		</ul>
 	</div>
 </div>
@@ -27,7 +33,7 @@ profile: true
 		<img src="{{ site.baseurl }}/assets/images/research/trf/minitaur.jpeg" alt="p-ACE" />
 	</div>
 	<div class="info">
-		<h1>Learning task-relevant features for model predictive control</h1>
+		<h1>Model</h1>
 		<span class="authors">Sourish Ghosh, Anirudha Majumdar</span>
 		<br>
 		<span class="conf">Research Internship at Princeton University, 2018</span>
@@ -50,7 +56,7 @@ navigation.
 		<img src="{{ site.baseurl }}/assets/images/research/pace/m2020.jpg" alt="p-ACE" />
 	</div>
 	<div class="info">
-		<h1>Probabilistic Kinematic State Estimation for Motion Planning of Planetary Rovers</h1>
+		<h1>Data-Driven Compression of Convolutional Neural Networks</h1>
 		<span class="authors">Sourish Ghosh, Kyohei Otsu, Masahiro Ono</span>
 		<br>
 		<span class="conf">IROS 2018 (Madrid, Spain)</span>
