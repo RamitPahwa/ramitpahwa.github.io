@@ -86,10 +86,11 @@ for Facebook comments and subtask for generalized social media data respectively
 		<img src="{{ site.baseurl }}/assets/images/research/UoA/pic.png" alt="JPP" />
 	</div>
 	<div class="info">
-		<h1>Identification of Hip Dysplasia in Infants</h1>
+		<h1>Identification of Hip Dysplasia in Infants.</h1>
 		<span class="authors">Ramit Pahwa, Dana Cobzas</span>
 		<br>
 		<span class="conf">Research Internship at University of Alberta</span>
 		<p class="desc"> We introduce an approach for end to end training regime involving localization and segmentation using Faster RCNN and U Net</p>
+		</p>
 	</div>
 </div>
