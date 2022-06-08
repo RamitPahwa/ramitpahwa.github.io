@@ -10,9 +10,9 @@ profile: true
 	</div>
 	<div class="info">
 		<h1>Model Blending for text classification</h1>
-		<span class="authors">Ramit Pahwa, Surya Dwivedi, Jayanta Mukhopadhyay, Sunav Choudhary, Vishwa Vinay4</span>
+		<span class="authors">Ramit Pahwa, Surya Dwivedi, Jayanta Mukhopadhyay, Sunav Choudhary, Vishwa Vinay</span>
 		<br>
-		<span class="conf">This is my Masters Thesis done in colloboration with Adobe Research and IIT Kharagpur</span>
+		<span class="conf">Masters Thesis done in colloboration with Adobe Research and IIT Kharagpur</span>
 		<p class="desc">
 			State-of-the-art for many NLP tasks are dominated by deep learning models. Effectively utilizing the signal in the sequence of words via Recurrent Neural Networks (RNNs) provides impressive accuracies, especially when using LSTM-based models. These models however
 have the disadvantage of longer scoring times.
@@ -83,10 +83,10 @@ for Facebook comments and subtask for generalized social media data respectively
 
 <div class="research-item" style="border-bottom: none;">
 	<div class="img">
-		<img src="{{ site.baseurl }}/assets/images/research/jpp/visualcache4rrt.png" alt="JPP" />
+		<img src="{{ site.baseurl }}/assets/images/research/UoA/pic.png" alt="JPP" />
 	</div>
 	<div class="info">
-		<h1></h1>
+		<h1>Identification of Hip Dysplasia in Infants</h1>
 		<span class="authors">Ramit Pahwa, Dana Cobzas</span>
 		<br>
 		<span class="conf">Research Internship at University of Alberta</span>
