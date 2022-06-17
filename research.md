@@ -89,8 +89,8 @@ for Facebook comments and subtask for generalized social media data respectively
 		<h1>Identification of Hip Dysplasia in Infants.</h1>
 		<span class="authors">Ramit Pahwa, Dana Cobzas</span>
 		<br>
-		<span class="conf">Research Internship at University of Alberta</span>
-		<p class="desc"> We introduce an approach for end to end training regime involving localization and segmentation using Faster RCNN and U Net</p>
+		<span class="conf">Research Internship at University of Alberta, Presented as a poster in UoA Symposium</span>
+		<p class="desc"> We introduce an approach for end to end training regime involving localization and segmentation using Faster RCNN and U Net. This involved collection and cleanup of High Dimensional MRI images and then proposed a novel end to end regime to first localize the Femoral head using RCNN model then segment it.
 		</p>
 	</div>
 </div>
