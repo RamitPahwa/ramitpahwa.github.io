@@ -6,7 +6,7 @@ profile: true
 
 <div class="research-item">
 	<div class="img">
-		<img src="{{ site.baseurl }}/assets/images/research/fod/fod.gif" alt="Aircraft Detection" />
+		<img src="{{ site.baseurl }}/assets/images/research/MB/KD.png" alt="Model Blending" />
 	</div>
 	<div class="info">
 		<h1>Model Blending for text classification</h1>
@@ -23,14 +23,14 @@ by blending in the complementary knowledge from an LSTM Teacher model. We empiri
 the Student CNN model can be up to 15x faster than the Teacher LSTM, while being more accurate than training the same CNN model directly from the data.
 		</p>
 		<ul>
-			<li><a href="https://drive.google.com/file/d/1n3MJRjiypa-ft51xQVTPnN3RIukqgm4p/view" target="blank">Paper</a></li>
+			<li><a href="{{ site.baseurl }}/publications/Model_Blending.pdf" target="blank">Paper</a></li>
 		</ul>
 	</div>
 </div>
 
 <div class="research-item">
 	<div class="img">
-		<img src="{{ site.baseurl }}/assets/images/research/pace/m2020.jpg" alt="p-ACE" />
+		<img src="{{ site.baseurl }}/assets/images/research/DDC/architecture.png" alt="p-ACE" />
 	</div>
 	<div class="info">
 		<h1>Data-Driven Compression of Convolutional Neural Networks</h1>
@@ -60,7 +60,7 @@ CNN model families for image feature extraction like VGG and ResNet with CIFAR d
 
 <div class="research-item">
 	<div class="img">
-		<img src="{{ site.baseurl }}/assets/images/research/ace/curiosity.jpg" alt="ACE" />
+		<img src="{{ site.baseurl }}/assets/images/research/HateSpeech/attention.png" alt="ACE" />
 	</div>
 	<div class="info">
 		<h1>LSTMs with Attention for Aggression Detection</h1>
