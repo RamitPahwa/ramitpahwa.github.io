@@ -1,5 +1,147 @@
----
-profile: true
----
+<!DOCTYPE HTML>
+<html lang="en">
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
 
-{% include post-list.html %}
+    <title>Ramit Pahwa</title>
+
+    <meta name="author" content="Ramit Pahwa">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="shortcut icon" href="images/favicon/favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" type="text/css" href="stylesheet.css">
+
+  </head>
+
+  <body>
+    <table style="width:100%;max-width:800px;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
+      <tr style="padding:0px">
+        <td style="padding:0px">
+          <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
+            <tr style="padding:0px">
+              <td style="padding:2.5%;width:63%;vertical-align:middle">
+                <p class="name" style="text-align: center;">
+                  Ramit Pahwa
+                </p>
+                <p>
+                  I'm a Master's student in Computer Science at <a href="https://www.utexas.edu/">UT Austin</a>, where I work on video quality assessment and diffusion models as a Research Assistant in the <a href="https://live.ece.utexas.edu/">LIVE Lab</a>, advised by <a href="https://www.ece.utexas.edu/people/faculty/alan-bovik">Prof. Alan Bovik</a>.
+                  I'm interested in computer vision and efficient representations of neural networks.
+                </p>
+                <p>
+                  Previously, I was a Software Engineer at <a href="https://www.adobe.com/">Adobe</a>, where I worked on Adobe's mobile PDF engine and business-critical features: text-to-speech, neural topic modelling, and an efficient BERT model for question answering on PDFs.
+                  I led the enterprise deployment of Acrobat Android, making it more secure, which led to 10x growth in enterprise customers.
+                  Before that, I received my Bachelor's and Master's degrees in Mathematics and Computing from <a href="http://www.iitkgp.ac.in/">IIT Kharagpur</a>.
+                </p>
+                <p style="text-align:center">
+                  <a href="mailto:ramitpahwa123@gmail.com">Email</a> &nbsp;/&nbsp;
+                  <a href="resume.pdf">Resume</a> &nbsp;/&nbsp;
+                  <a href="cv.pdf">CV</a> &nbsp;/&nbsp;
+                  <a href="https://twitter.com/PahwaRamit">Twitter</a> &nbsp;/&nbsp;
+                  <a href="https://github.com/RamitPahwa/">Github</a> &nbsp;/&nbsp;
+                  <a href="https://www.linkedin.com/in/ramit-pahwa-248492a0/">LinkedIn</a>
+                </p>
+              </td>
+              <td style="padding:2.5%;width:37%;max-width:37%">
+                <a href="images/RamitPahwa.png"><img style="width:100%;max-width:100%;object-fit: cover; border-radius: 50%;" alt="profile photo" src="images/RamitPahwa.png" class="hoverZoomLink"></a>
+              </td>
+            </tr>
+          </tbody></table>
+          <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
+              <tr>
+              <td style="padding:16px;width:100%;vertical-align:middle">
+                <h2>Research</h2>
+                <p>
+                  I'm interested in computer vision and efficient representations of neural networks. Much of my work has been on making models smaller and faster to run: distilling knowledge from large models into compact ones, and compressing trained networks so they can be deployed on mobile devices.
+                </p>
+              </td>
+            </tr>
+          </tbody></table>
+          <table style="width:100%;border:0px;border-spacing:0px 10px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
+
+            <tr>
+              <td style="padding:16px;width:20%;vertical-align:middle">
+                <img src='images/modelblending.png' width=100% alt="Model Blending">
+              </td>
+              <td style="padding:8px;width:80%;vertical-align:middle">
+                <a href="https://arxiv.org/abs/2208.02819">
+                  <span class="papertitle">Model Blending for Text Classification</span>
+                </a>
+                <br>
+                <strong>Ramit Pahwa</strong>, Surya Dwivedi, Jayanta Mukhopadhyay, Sunav Choudhary, Vishwa Vinay
+                <br>
+                <em>arXiv</em>, 2022 &nbsp;(Master's Thesis, IIT Kharagpur &amp; Adobe Research)
+                <br>
+                <a href="https://arxiv.org/abs/2208.02819">arXiv</a> / <a href="publications/Model_Blending.pdf">paper</a> / <a href="publications/Thesis_IIT_KGP.pdf">thesis</a>
+                <p></p>
+                <p>Blending in complementary knowledge from an LSTM teacher lets us train CNN students for text classification that are up to 15x faster at inference, while being more accurate than the same CNN trained directly on the data.</p>
+              </td>
+            </tr>
+
+            <tr>
+              <td style="padding:16px;width:20%;vertical-align:middle">
+                <img src='images/ddc.png' width=100% alt="Data-Driven Compression">
+              </td>
+              <td style="padding:8px;width:80%;vertical-align:middle">
+                <a href="https://arxiv.org/abs/1911.12740">
+                  <span class="papertitle">Data-Driven Compression of Convolutional Neural Networks</span>
+                </a>
+                <br>
+                <strong>Ramit Pahwa</strong>, Manoj Ghuhan Arivazhagan, Ankur Garg, Siddarth Krishnamoorthy, Rohit Saxena, Sunav Choudhary
+                <br>
+                <em>arXiv</em>, 2019 &nbsp;(Adobe Research)
+                <br>
+                <a href="https://arxiv.org/abs/1911.12740">arXiv</a> / <a href="https://github.com/RamitPahwa/DDC_modelcompression">code</a>
+                <p></p>
+                <p>Reinforcement learning over architecture search, combined with knowledge distillation, compresses trained CNNs such as VGG and ResNet automatically, exposing the trade-off between speed, memory and accuracy and exploiting the fact that a deployed model may only need a subset of the classes.</p>
+              </td>
+            </tr>
+
+            <tr>
+              <td style="padding:16px;width:20%;vertical-align:middle">
+                <img src='images/aggression.png' width=100% alt="LSTM with attention">
+              </td>
+              <td style="padding:8px;width:80%;vertical-align:middle">
+                <a href="https://aclanthology.org/W18-4406.pdf">
+                  <span class="papertitle">LSTMs with Attention for Aggression Detection</span>
+                </a>
+                <br>
+                Nishant Nikhil, <strong>Ramit Pahwa</strong>, Mehul Kumar Nirala, Rohan Khilnani
+                <br>
+                <em>TRAC Workshop, COLING</em>, 2018
+                <br>
+                <a href="https://aclanthology.org/W18-4406.pdf">paper</a> / <a href="https://github.com/RamitPahwa/LSTMs-with-Attention-For-Aggression-Detection">code</a>
+                <p></p>
+                <p>An LSTM with an attention unit for the shared task on aggression identification in Facebook posts and comments, ranking 6th and 4th on the two Hindi subtasks.</p>
+              </td>
+            </tr>
+
+            <tr>
+              <td style="padding:16px;width:20%;vertical-align:middle">
+                <img src='images/hipdysplasia.png' width=100% alt="Hip ultrasound with detected femoral head">
+              </td>
+              <td style="padding:8px;width:80%;vertical-align:middle">
+                <span class="papertitle">Identification of Hip Dysplasia in Infants</span>
+                <br>
+                <strong>Ramit Pahwa</strong>, Dana Cobzas
+                <br>
+                <em>Research Internship, University of Alberta</em>, 2017 &nbsp;(poster, UoA Symposium)
+                <p></p>
+                <p>An end-to-end training regime for infant hip ultrasound that first localizes the femoral head with a Faster R-CNN and then segments it with a U-Net, built on a collected and cleaned set of high-dimensional MRI images.</p>
+              </td>
+            </tr>
+
+          </tbody></table>
+          <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
+            <tr>
+              <td style="padding:0px">
+                <br>
+                <p style="text-align:right;font-size:small;">
+                  Design and source code from <a href="https://jonbarron.info/">Jon Barron</a>'s <a href="https://github.com/jonbarron/jonbarron.github.io">website</a>.
+                </p>
+              </td>
+            </tr>
+          </tbody></table>
+        </td>
+      </tr>
+    </table>
+  </body>
+</html>
