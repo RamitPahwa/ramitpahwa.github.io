@@ -23,18 +23,16 @@
                   Ramit Pahwa
                 </p>
                 <p>
-                  I'm a Master's student in Computer Science at <a href="https://www.utexas.edu/">UT Austin</a>, where I work on video quality assessment and diffusion models as a Research Assistant in the <a href="https://live.ece.utexas.edu/">LIVE Lab</a>, advised by <a href="https://www.ece.utexas.edu/people/faculty/alan-bovik">Prof. Alan Bovik</a>.
-                  I'm interested in computer vision and efficient representations of neural networks.
+                  I'm a Senior Research Engineer at <a href="https://www.rivianvw.tech/">Rivian and Volkswagen Group Technologies</a> in Palo Alto, working on speech, multimodal AI and post-training.
+                  I lead post-training of a 30B omni foundation model for in-vehicle spoken dialogue, and have worked on full-duplex speech models with native tool calling, on-device wake word detection, streaming multilingual ASR, and production text-to-speech.
                 </p>
                 <p>
-                  Previously, I was a Software Engineer at <a href="https://www.adobe.com/">Adobe</a>, where I worked on Adobe's mobile PDF engine and business-critical features: text-to-speech, neural topic modelling, and an efficient BERT model for question answering on PDFs.
-                  I led the enterprise deployment of Acrobat Android, making it more secure, which led to 10x growth in enterprise customers.
-                  Before that, I received my Bachelor's and Master's degrees in Mathematics and Computing from <a href="http://www.iitkgp.ac.in/">IIT Kharagpur</a>.
+                  Before that I was a Machine Learning Scientist at <a href="https://secta.ai/">Secta.ai</a>, working on diffusion models and LLM-based image quality assessment, and a Software Engineer (ML) at <a href="https://www.adobe.com/">Adobe</a> on Acrobat's mobile ML platform.
+                  I did my M.S. in Computer Science at <a href="https://www.utexas.edu/">UT Austin</a>, where I worked on video quality assessment in the <a href="https://live.ece.utexas.edu/">LIVE Lab</a> with <a href="https://www.ece.utexas.edu/people/faculty/alan-bovik">Prof. Alan Bovik</a>, and my integrated B.S./M.S. in Mathematics and Computing at <a href="http://www.iitkgp.ac.in/">IIT Kharagpur</a>.
                 </p>
                 <p style="text-align:center">
                   <a href="mailto:ramitpahwa123@gmail.com">Email</a> &nbsp;/&nbsp;
                   <a href="resume.pdf">Resume</a> &nbsp;/&nbsp;
-                  <a href="cv.pdf">CV</a> &nbsp;/&nbsp;
                   <a href="https://twitter.com/PahwaRamit">Twitter</a> &nbsp;/&nbsp;
                   <a href="https://github.com/RamitPahwa/">Github</a> &nbsp;/&nbsp;
                   <a href="https://www.linkedin.com/in/ramit-pahwa-248492a0/">LinkedIn</a>
@@ -50,12 +48,86 @@
               <td style="padding:16px;width:100%;vertical-align:middle">
                 <h2>Research</h2>
                 <p>
-                  I'm interested in computer vision and efficient representations of neural networks. Much of my work has been on making models smaller and faster to run: distilling knowledge from large models into compact ones, and compressing trained networks so they can be deployed on mobile devices.
+                  I work on speech and multimodal AI: post-training voice-language models for spoken dialogue, evaluating what they actually hear, and making speech models small enough to run on-device. Earlier I worked on perceptual video quality assessment, and on compressing and distilling neural networks.
                 </p>
               </td>
             </tr>
           </tbody></table>
           <table style="width:100%;border:0px;border-spacing:0px 10px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
+
+            <tr>
+              <td align="center" style="padding:16px;width:20%;vertical-align:middle">
+                <div class="colored-box" style="background-color: #fcb97d;">
+                  <h2>VLME</h2>
+                </div>
+              </td>
+              <td style="padding:8px;width:80%;vertical-align:middle">
+                <span class="papertitle">VLME: Paralinguistic Metadata in Voice-Language Model Evaluation</span>
+                <br>
+                <strong>Ramit Pahwa</strong>, et al.
+                <br>
+                <em>PALM Workshop @ NeurIPS</em>, 2026 &nbsp;(submitted)
+                <p></p>
+                <p>A benchmark that quantifies whether voice-language models actually use paralinguistic information (emotion, prosody, non-lexical vocalizations), with an adversarial gating protocol that removes any question answerable from the transcript alone.</p>
+              </td>
+            </tr>
+
+            <tr>
+              <td align="center" style="padding:16px;width:20%;vertical-align:middle">
+                <div class="colored-box" style="background-color: #c6b89e;">
+                  <h2>Audio2Tool</h2>
+                </div>
+              </td>
+              <td style="padding:8px;width:80%;vertical-align:middle">
+                <a href="https://audio2tool.github.io/">
+                  <span class="papertitle">Audio2Tool: Speak, Call, Act &mdash; A Dataset for Benchmarking Speech Tool Use</span>
+                </a>
+                <br>
+                <strong>Ramit Pahwa</strong>*, Apoorva Beedu*, Parivesh Priye, Rutu Gandhi, Saloni Takawale, Aruna Baijal, Zengli Yang &nbsp;<span style="font-size:small">(* equal contribution)</span>
+                <br>
+                <em>Interspeech</em>, 2026 &nbsp;(submitted)
+                <br>
+                <a href="https://audio2tool.github.io/">project page</a> / <a href="https://arxiv.org/abs/2604.22821">arXiv</a> / <a href="https://huggingface.co/datasets/RVtech/Audio2Tool">dataset</a> / <a href="https://github.com/audio2tool/Audio2Tool">code</a>
+                <p></p>
+                <p>About 30,000 spoken tool-calling queries across smart car, smart home and wearables, organized in a reasoning hierarchy from single-intent calls to needle-in-a-haystack extraction, with realistic acoustic variation from zero-shot voice-cloning TTS and noise. SpeechLM and ASR-plus-LLM baselines expose the gap between text and audio tool calling.</p>
+              </td>
+            </tr>
+
+            <tr>
+              <td align="center" style="padding:16px;width:20%;vertical-align:middle">
+                <div class="colored-box" style="background-color: #aaba9e;">
+                  <h2>ASL-LIVE</h2>
+                </div>
+              </td>
+              <td style="padding:8px;width:80%;vertical-align:middle">
+                <span class="papertitle">ASL-LIVE: Quality Assessment of American Sign Language Videos</span>
+                <br>
+                <strong>Ramit Pahwa</strong>, et al.
+                <br>
+                <em>IEEE Transactions on Image Processing</em>, 2026
+                <p></p>
+                <p>Perceptual video quality assessment for American Sign Language videos.</p>
+              </td>
+            </tr>
+
+            <tr>
+              <td style="padding:16px;width:20%;vertical-align:middle">
+                <img src='images/vqa_journey.jpg' width=100% alt="Video quality assessment taxonomy">
+              </td>
+              <td style="padding:8px;width:80%;vertical-align:middle">
+                <a href="https://www.frontiersin.org/articles/10.3389/frsip.2023.1193523/full">
+                  <span class="papertitle">Perceptual Video Quality Assessment: The Journey Continues!</span>
+                </a>
+                <br>
+                Avinab Saha*, Sai Karthikey Pentapati, Zaixi Shang, <strong>Ramit Pahwa</strong>*, Bowen Chen, Hakan Emre Gedik, Sandeep Mishra, Alan C. Bovik &nbsp;<span style="font-size:small">(* equal contribution)</span>
+                <br>
+                <em>Frontiers in Signal Processing</em>, 2023
+                <br>
+                <a href="https://www.frontiersin.org/articles/10.3389/frsip.2023.1193523/full">paper</a>
+                <p></p>
+                <p>A survey of perceptual video quality assessment: full-, reduced- and no-reference models, the subjective databases behind them, and emerging topics such as HDR, high frame rate, cloud gaming and AR/VR.</p>
+              </td>
+            </tr>
 
             <tr>
               <td style="padding:16px;width:20%;vertical-align:middle">
@@ -126,6 +198,25 @@
                 <em>Research Internship, University of Alberta</em>, 2017 &nbsp;(poster, UoA Symposium)
                 <p></p>
                 <p>An end-to-end training regime for infant hip ultrasound that first localizes the femoral head with a Faster R-CNN and then segments it with a U-Net, built on a collected and cleaned set of high-dimensional MRI images.</p>
+              </td>
+            </tr>
+
+            <tr>
+              <td align="center" style="padding:16px;width:20%;vertical-align:middle">
+                <div class="colored-box" style="background-color: #edd892;">
+                  <h2>Patents</h2>
+                </div>
+              </td>
+              <td style="padding:8px;width:80%;vertical-align:center">
+                Wake Word Detection, 2025 &nbsp;<span style="font-size:small">(filed)</span>
+                <br>
+                Two-Stage Wake Word Detection, 2025 &nbsp;<span style="font-size:small">(filed)</span>
+                <br>
+                Contextual Cabin Noise Suppression, 2025 &nbsp;<span style="font-size:small">(filed)</span>
+                <br>
+                Diffusion-Based 2D Animation Creation Using Text Prompts, 2023 &nbsp;<span style="font-size:small">(approved)</span>
+                <br>
+                Transformers for In-Application Text-Based Reading, 2021 &nbsp;<span style="font-size:small">(approved)</span>
               </td>
             </tr>
 
