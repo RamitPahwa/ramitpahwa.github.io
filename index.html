@@ -10,6 +10,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="shortcut icon" href="images/favicon/favicon.ico" type="image/x-icon">
     <link rel="stylesheet" type="text/css" href="stylesheet.css">
+    <script src="research-animations.js" defer></script>
 
   </head>
 
@@ -57,8 +58,11 @@
           <table style="width:100%;border:0px;border-spacing:0px 10px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
             <tr>
               <td align="center" style="padding:16px;width:20%;vertical-align:middle">
-                <div class="colored-box" style="background-color: #c6b89e;">
-                  <h2>Wake Words</h2>
+                <div class="research-preview" data-research-animation="Wake word">
+                  <a href="images/wake-word.gif" aria-label="View wake word animation at full size">
+                    <img src="images/wake-word.png" data-animated-src="images/wake-word.gif" width="480" height="360" loading="lazy" decoding="async" alt="On-device keyword spotting recognizes a wake word in incoming speech">
+                  </a>
+                  <button class="animation-toggle" type="button" hidden>Play animation</button>
                 </div>
               </td>
               <td style="padding:8px;width:80%;vertical-align:middle">
@@ -70,8 +74,11 @@
             </tr>
             <tr>
               <td align="center" style="padding:16px;width:20%;vertical-align:middle">
-                <div class="colored-box" style="background-color: #c5d9cd;">
-                  <h2>Speech</h2>
+                <div class="research-preview" data-research-animation="Full-duplex speech">
+                  <a href="images/full-duplex.gif" aria-label="View full-duplex speech animation at full size">
+                    <img src="images/full-duplex.png" data-animated-src="images/full-duplex.gif" width="480" height="360" loading="lazy" decoding="async" alt="Full-duplex speech models listen and speak at the same time">
+                  </a>
+                  <button class="animation-toggle" type="button" hidden>Play animation</button>
                 </div>
               </td>
               <td style="padding:8px;width:80%;vertical-align:middle">
@@ -83,8 +90,11 @@
             </tr>
             <tr>
               <td align="center" style="padding:16px;width:20%;vertical-align:middle">
-                <div class="colored-box" style="background-color: #fcb97d;">
-                  <h2>ASR</h2>
+                <div class="research-preview" data-research-animation="Multilingual ASR">
+                  <a href="images/multilingual-asr.gif" aria-label="View multilingual ASR animation at full size">
+                    <img src="images/multilingual-asr.png" data-animated-src="images/multilingual-asr.gif" width="480" height="360" loading="lazy" decoding="async" alt="An on-device speech model uses language model context for multilingual transcription">
+                  </a>
+                  <button class="animation-toggle" type="button" hidden>Play animation</button>
                 </div>
               </td>
               <td style="padding:8px;width:80%;vertical-align:middle">
@@ -114,9 +124,9 @@
                 <h2>Ongoing Research</h2>
                 <p>I also lead the following research efforts:</p>
                 <ul style="padding-left:20px;line-height:1.6;">
-                  <li><strong>COTIQA</strong> &mdash; targeting CVPR.</li>
-                  <li><strong>Full-Duplex Gym</strong> &mdash; targeting ICML.</li>
-                  <li><strong>Vocabulary expansion for tool generation</strong> &mdash; targeting ACL.</li>
+                  <li><strong>COTIQA</strong> &mdash; Investigating the use of registers to improve reasoning for image quality assessment. <em>Targeting CVPR.</em></li>
+                  <li><strong>Full-Duplex Gym</strong> &mdash; Adapting Speech Gym into an automated pipeline for training full-duplex speech models. <em>Targeting ICML.</em></li>
+                  <li><strong>Vocabulary expansion for tool generation</strong> &mdash; Developing vocabulary expansion methods to help models generate tool calls. <em>Targeting ACL.</em></li>
                 </ul>
               </td>
             </tr>
@@ -135,8 +145,11 @@
 
             <tr>
               <td align="center" style="padding:16px;width:20%;vertical-align:middle">
-                <div class="colored-box" style="background-color: #fcb97d;">
-                  <h2>VLME</h2>
+                <div class="research-preview" data-research-animation="VLME">
+                  <a href="images/vlme.gif" aria-label="View VLME animation at full size">
+                    <img src="images/vlme.png" data-animated-src="images/vlme.gif" width="480" height="360" loading="lazy" decoding="async" alt="VLME: retaining voice cues across conversation turns for later recall">
+                  </a>
+                  <button class="animation-toggle" type="button" hidden>Play animation</button>
                 </div>
               </td>
               <td style="padding:8px;width:80%;vertical-align:middle">
@@ -156,8 +169,11 @@
 
             <tr>
               <td align="center" style="padding:16px;width:20%;vertical-align:middle">
-                <div class="colored-box" style="background-color: #c6b89e;">
-                  <h2>Audio2Tool</h2>
+                <div class="research-preview" data-research-animation="Audio2Tool">
+                  <a href="images/audio2tool.gif" aria-label="View Audio2Tool animation at full size">
+                    <img src="images/audio2tool.png" data-animated-src="images/audio2tool.gif" width="480" height="360" loading="lazy" decoding="async" alt="Audio2Tool: speech becomes a predicted tool call across car, home, and wearable domains">
+                  </a>
+                  <button class="animation-toggle" type="button" hidden>Play animation</button>
                 </div>
               </td>
               <td style="padding:8px;width:80%;vertical-align:middle">
@@ -167,7 +183,7 @@
                 <br>
                 <strong>Ramit Pahwa</strong>*, Apoorva Beedu*, Parivesh Priye, Rutu Gandhi, Saloni Takawale, Aruna Baijal, Zengli Yang &nbsp;<span style="font-size:small">(* equal contribution)</span>
                 <br>
-                <em>Interspeech</em>, 2026 &nbsp;(submitted)
+                <em>Interspeech</em>, 2026
                 <br>
                 <a href="https://audio2tool.github.io/">project page</a> / <a href="https://arxiv.org/abs/2604.22821">arXiv</a> / <a href="https://huggingface.co/datasets/RVtech/Audio2Tool">dataset</a> / <a href="https://github.com/audio2tool/Audio2Tool">code</a>
                 <p></p>

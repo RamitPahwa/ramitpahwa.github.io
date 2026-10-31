@@ -140,3 +140,35 @@ span.highlight {
     display: inline-block;
     border-radius: 10px;
 }
+
+.research-preview {
+  width: 100%;
+  max-width: 160px;
+}
+
+.research-preview img {
+  display: block;
+  width: 100%;
+  height: auto;
+  border-radius: 10px;
+}
+
+.animation-toggle {
+  padding: 6px 0 0;
+  border: 0;
+  background: transparent;
+  color: #1772d0;
+  font: 11px 'Lato', Verdana, Helvetica, sans-serif;
+  cursor: pointer;
+}
+
+.animation-toggle:hover,
+.animation-toggle:focus-visible {
+  color: #f09228;
+  text-decoration: underline;
+}
+
+.animation-toggle:focus-visible {
+  outline: 2px solid #1772d0;
+  outline-offset: 3px;
+}
